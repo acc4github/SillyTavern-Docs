@@ -647,17 +647,17 @@ World Info (also known as Lorebook) is a highly utilitarian tool for dynamically
 | `comment`          | Title / Memo     | String           |
 | `key`              | Primary Keywords | List of strings  |
 | `keysecondary`     | Optional Filter  | List of strings  |
-| `constant`         | Constant Status  | Boolean (1/0)    |
-| `disable`          | Disabled Status  | Boolean (1/0)    |
+| `constant`         | Constant Status  | Boolean (true/false)    |
+| `disable`          | Disabled Status  | Boolean (true/false)    |
 | `order`            | Order            | Number           |
 | `selectiveLogic`   | Logic            | 0 = AND, 1 = NOT |
-| `excludeRecursion` | Non-recursable   | Boolean (1/0)    |
+| `excludeRecursion` | Non-recursable   | Boolean (true/false)    |
 | `probability`      | Trigger%         | Number (0-100)   |
 | `depth`            | Depth            | Number (0-999)   |
 | `position`         | Position         | (see below)      |
 | `scanDepth`        | Scan Depth       | Number (0-100)  |
-| `caseSensitive`    | Case-Sensitive   | Boolean (1/0)    |
-| `matchWholeWords`  | Match Whole Words | Boolean (1/0)   |
+| `caseSensitive`    | Case-Sensitive   | Boolean (true/false)    |
+| `matchWholeWords`  | Match Whole Words | Boolean (true/false)   |
 
 **Position values**
 
